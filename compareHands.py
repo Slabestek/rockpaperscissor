@@ -17,24 +17,24 @@ def compareHands(userHand, pcHand):
 
     if userHand == 'Rock':
         if pcHand == 'Rock':
-            print(tie)
+            return tie
         elif pcHand == 'Scissor':
-            print(win)
+            return win
         else:
-            print(lose)
+            return lose
 
     elif userHand == 'Scissor':
         if pcHand == 'Scissor':
-            print(tie)
+            return tie
         elif pcHand == 'Paper':
-            print(win)
+            return win
         else:
-            print(lose)
+            return lose
 
     else:
         if pcHand == 'Paper':
-            print(tie)
+            return tie
         elif pcHand == 'Rock':
-            print(win)
+            return win
         else:
-            print(lose)
+            return lose
